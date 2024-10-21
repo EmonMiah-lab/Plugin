@@ -1,0 +1,47 @@
+.container_box_my_custom_post_type{
+    max-width: 450px;
+    margin: 5rem auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+}
+
+.container_box_my_custom_post_type h5{
+    margin-bottom: 2rem;
+    color: rgb(27, 112, 182);
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.form_group{
+    width: 100%;
+    margin-bottom: 1rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+label{
+    text-align: end;
+    padding-right: 20px;
+}
+.add_my_custom_post_type_btn{
+    padding: 7px 16px;
+    cursor: pointer;
+    margin-left: 100%;
+    transform: translateX(-100%);
+    margin-top: 0.5rem;
+}
+
+.message{
+    color: rgb(93, 196, 93);
+    background-color: rgb(195, 235, 235);
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.error{
+    background-color: rgb(184, 135, 96);
+    padding: 5px;
+    margin: 5px 0;
+}
